@@ -1,0 +1,12 @@
+pytest
+pylint
+ipython
+fastapi
+uvicorn[standard]
+dask
+dask[distributed]
+jupyter
+s3fs
+bokeh
+streamlit
+pysqlite3
