@@ -10,3 +10,4 @@ s3fs
 bokeh
 streamlit
 pysqlite3
+kaggle

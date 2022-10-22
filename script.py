@@ -8,7 +8,8 @@ cursor = connection.cursor()
 
 #create a table
 command1 = ('''CREATE TABLE IF NOT EXISTS
-                    products(product_id INTEGER PRIMARY KEY, category TEXT, price FLOAT, quantity FLOAT)''')
+                    products(product_id INTEGER PRIMARY KEY, 
+                    category TEXT, price FLOAT, quantity FLOAT)''')
 
 cursor.execute(command1)
 
@@ -29,7 +30,8 @@ cursor.execute('''INSERT INTO costs VALUES(2, 2, 10.00)''')
 cursor.execute('''INSERT INTO costs VALUES(3, 3, 15.00)''')
 
 #get results
-cursor.execute('''SELECT * FROM products''')
+cursor.execute('''SELECT * FROM products join costs on products.product_id = costs.product_id 
+                    where products.product_id = 1''')
 results = cursor.fetchall()
 print(results)
 #this will return the products table.
