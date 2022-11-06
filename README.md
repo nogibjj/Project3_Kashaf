@@ -17,7 +17,7 @@ Create and query tables within a database using SQLite in Python. In this demo, 
 
 ![Image](part1.png)
 
-Here is a summary of part 2 and 3
+Here is a combined summary of Part 2 and 3:
 
 ![Image](p23.png)
 
