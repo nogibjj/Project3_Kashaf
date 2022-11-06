@@ -19,7 +19,7 @@ Create and query tables within a database using SQLite in Python. In this demo, 
 
 Here is a summary of part 2 and 3
 
-![Image](part23.png)
+![Image](p23.png)
 
 Part 2: Load Dataset using Kaggle API
 
