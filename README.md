@@ -1,11 +1,13 @@
 # Project3_Kashaf
 
-Generate a script that queries a database using Sqlite.
+In this project, I will be doing three different things with Sqlite.
+1. Generating a script that creates and queries a database using Sqlite
+2. Loading Datasets from Kaggle using Kaggle API
+3. Quering datasets from Kaggle to answer important research questions
 
-Part 1: Use Sqlite in Python
+Part 1: Generate a script that creates and queries a database using Sqlite:
 
-Create and query tables within a database using SQLite in Python. In this demo, we’ll create a database to manage data about a grocery business. 
-
+Create and query tables within a database using SQLite in Python. In this demo, we’ll create a database to manage data about a grocery business. We will adhere to the following steps:
 1. install pysqlite3
 2. build the script.py file to create the table: 
     i. define a connection (connection is used to connect to a database - pass in the name of the dataset, if you are referencing a new one then a new database will be created)
@@ -24,4 +26,17 @@ cp /workspaces/Project3_Kashaf/kaggle.json /home/codespace/.kaggle
 chmod 600 /home/codespace/.kaggle/kaggle.json
 5. load dataset using Kaggle API (copy this from Kaggle): 
 kaggle datasets download -d jagaryousef/the-world-bank-projects
-6. unzip the dataset
+6. unzip the file and copy paste in the data directory
+
+Part 3:  Quering datasets from Kaggle to answer important research questions:
+1. Use two imported Kaggle datasets: (i) AQI data for all countries between 2018-2021, 
+and (ii) Deaths due to different risk factors for all countries for different years.
+2. Create tables for both these csv files (step1.py)
+3. Insert csv data into both tables (step2.py)
+4. Query datasets to answer the following research questions:
+    i. What were the top 10 most polluted countries in 2021?
+    Terminal command:  python -c 'import step3; step3.qi()'
+    ii. How many people died from air pollution in the top most polluted country in 2019?
+    Terminal command:  python -c 'import step3; step3.qii()'
+    iii. What was the percentage of deaths (with respect to the total population) in Pakistan in 2019?
+    Terminal command:  python -c 'import step3; step3.qiii()'

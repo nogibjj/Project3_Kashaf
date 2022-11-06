@@ -13,10 +13,10 @@ def create_db_table():
     aqi_country = """CREATE TABLE IF NOT EXISTS aqi_country (
 		Rank INTEGER,
         Country_Region varchar,
-		"2021" decimal,
-		"2020" decimal,
-        "2019" decimal,
-        "2018" decimal,
+		aqi_2021 decimal,
+		aqi_2020 decimal,
+        aqi_2019 decimal,
+        aqi_2018 decimal,
         Population decimal);"""
     # query to create a table about deaths due to different risk factos in each country
     deaths_country = """CREATE TABLE IF NOT EXISTS deaths_country (
@@ -35,7 +35,6 @@ def create_db_table():
         Child_wasting int, 
         Unsafe_sex int, 
         Diet_low_in_nuts_and_seeds int, 
-        
         Household_air_pollution_from_solid_fuels int, 
         Diet_low_in_vegetables int,
         Low_physical_activity int, 
@@ -52,6 +51,7 @@ def create_db_table():
         Discontinued_breastfeeding int,
         Nonexclusive_breastfeeding int, 
         Iron_deficiency int);"""
+        
 
     # execute query to create table
     cursor.execute(aqi_country) 
