@@ -15,7 +15,7 @@ Create and query tables within a database using SQLite in Python. In this demo, 
 3. Create the tables (products & costs)
 4. Query the table using sql joins
 
-![Image](part1.png “icon”)
+![Image](part1.png)
 
 Part 2: Load Dataset using Kaggle API
 
