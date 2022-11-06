@@ -5,8 +5,7 @@ In this project, I will be doing three different things with Sqlite.
 2. Loading Datasets from Kaggle using Kaggle API
 3. Quering datasets from Kaggle to answer important research questions
 
-**Part 1: Generate a script that creates and queries a database using Sqlite (script.py):
-**
+**Part 1: Generate a script that creates and queries a database using Sqlite (script.py):**
 
 Create and query tables within a database using SQLite in Python. In this demo, we’ll create a database to manage data about a grocery business. We will adhere to the following steps:
 
