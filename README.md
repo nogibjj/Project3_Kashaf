@@ -1,11 +1,11 @@
-# Project3_Kashaf
+# Project 3: Generate a script that queries a database: Sqlite.
 
 In this project, I will be doing three different things with Sqlite.
 1. Generating a script that creates and queries a database using Sqlite
 2. Loading Datasets from Kaggle using Kaggle API
 3. Quering datasets from Kaggle to answer important research questions
 
-**Part 1: Generate a script that creates and queries a database using Sqlite (script.py):**
+## Part 1: Generate a script that creates and queries a database using Sqlite (script.py):
 
 Create and query tables within a database using SQLite in Python. In this demo, we’ll create a database to manage data about a grocery business. We will adhere to the following steps:
 
@@ -22,8 +22,7 @@ Here is a combined summary of Part 2 and 3:
 
 ![Image](p23.png)
 
-**Part 2: Load Dataset using Kaggle API using the following steps:
-**
+## Part 2: Load Dataset using Kaggle API using the following steps:
 
 1. install kaggle - add to requirements file
 2. create a directory with mkdir /home/codespace/.kaggle
@@ -36,8 +35,7 @@ kaggle datasets download -d howardforbes/air-quality-index-by-cities
 kaggle datasets download -d ahmadjalalmasood123/deaths-by-risk-factor-dataset
 6. unzip the file and copy paste in the data directory
 
-**Part 3:  Quering datasets from Kaggle to answer important research questions using the following steps:
-**
+## Part 3:  Quering datasets from Kaggle to answer important research questions using the following steps:
 
 1. Use two imported Kaggle datasets from part 2: (i) AQI data for all countries between 2018-2021 from [here](https://www.kaggle.com/datasets/howardforbes/air-quality-index-by-cities?select=AIR+QUALITY+INDEX-+top+countries.csv), 
 and (ii) Deaths due to different risk factors for all countries for different years from [here](https://www.kaggle.com/datasets/ahmadjalalmasood123/deaths-by-risk-factor-dataset?select=Number+of+Deaths+by+Risk+Factors.csv).
