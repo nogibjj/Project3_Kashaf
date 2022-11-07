@@ -40,9 +40,15 @@ and (ii) Deaths due to different risk factors for all countries for different ye
 2. Create tables for both these csv files (step1.py)
 3. Insert csv data into both tables (step2.py)
 4. Query datasets to answer the following research questions:
+
     i. What were the top 10 most polluted countries in 2021?
+    
     Terminal command:  python -c 'import step3; step3.qi()'
+    
     ii. How many people died from air pollution in the top most polluted country in 2019?
+    
     Terminal command:  python -c 'import step3; step3.qii()'
+    
     iii. What was the percentage of deaths (with respect to the total population) in Pakistan in 2019?
+    
     Terminal command:  python -c 'import step3; step3.qiii()'
