@@ -17,7 +17,7 @@ In this project, I will be doing three different things with Sqlite.
 ![Image](part1.png)
 
 
-Demo for Part 1 linked [![here](https://prodduke.sharepoint.com/:v:/r/sites/IDS.721.01.Sp22/Shared%20Documents/Week%208%20Demo/Kashaf_Week%208%20Demo.mp4?csf=1&web=1&e=W8UD7K)(https://prodduke.sharepoint.com/:v:/r/sites/IDS.721.01.Sp22/Shared%20Documents/Week%208%20Demo/Kashaf_Week%208%20Demo.mp4?csf=1&web=1&e=W8UD7K)]
+Demo for Part 1 linked [[here](https://prodduke.sharepoint.com/:v:/r/sites/IDS.721.01.Sp22/Shared%20Documents/Week%208%20Demo/Kashaf_Week%208%20Demo.mp4?csf=1&web=1&e=W8UD7K)]
 
 Here is a combined summary of Part 2 and 3:
 
