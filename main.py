@@ -1,6 +1,5 @@
 import sqlite3
 import csv
-import pandas as pd
 from sqlite3 import Error
 
 #create a database connection

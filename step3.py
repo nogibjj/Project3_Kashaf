@@ -1,5 +1,4 @@
 import sqlite3
-import numpy as np
 import pandas as pd
 
 
@@ -30,3 +29,11 @@ def qiii(cursor=connect_db()):
     qiii = "SELECT aqi.Country_Region, aqi.aqi_2019, Round((d.Outdoor_air_pollution + d.Air_pollution)*100/CAST(REPLACE(aqi.Population, ',', '') AS FLOAT),2) air_pollution_percentage_deaths_pk FROM aqi_country aqi join deaths_country d on aqi.Country_Region = d.Entity WHERE d.Year = 2019 and aqi.Country_Region = 'Pakistan' order by aqi.aqi_2019 DESC;"
     q1iii = create_df(cursor.execute(qiii).fetchall(), cursor)
     print(q1iii)
+
+def q_test(cursor=connect_db()):
+    q_test = "SELECT count(Country_Region) FROM aqi_country where aqi_2019 != '-';"
+    qtest1 = create_df(cursor.execute(q_test).fetchall(), cursor)
+    print(qtest1)
+
+    
+    

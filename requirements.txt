@@ -11,3 +11,4 @@ bokeh
 streamlit
 pysqlite3
 kaggle
+pytest
