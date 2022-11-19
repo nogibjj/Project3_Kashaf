@@ -51,10 +51,9 @@ def create_db_table():
         Discontinued_breastfeeding int,
         Nonexclusive_breastfeeding int, 
         Iron_deficiency int);"""
-        
 
     # execute query to create table
-    cursor.execute(aqi_country) 
+    cursor.execute(aqi_country)
     cursor.execute(deaths_country)
     # close and save the change of db
     connect.commit()

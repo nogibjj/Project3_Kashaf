@@ -20,7 +20,7 @@ def initial_build():
     data_aqi = csv.reader(file_aqi)
     next(data_aqi)  # pass header row
 
-    file_deaths = open(deaths_filepath,encoding="utf8")
+    file_deaths = open(deaths_filepath, encoding="utf8")
     data_deaths = csv.reader(file_deaths)
     next(data_deaths)  # pass header row
 
