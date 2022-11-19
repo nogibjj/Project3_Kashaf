@@ -6,7 +6,7 @@ test:
 	python -m pytest -vv test_0.py
 
 format:	
-	black *.py
+	black step*.py
 
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
