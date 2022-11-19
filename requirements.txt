@@ -4,4 +4,4 @@ bokeh
 streamlit
 pysqlite3
 kaggle
-black
+black==22.3.0
