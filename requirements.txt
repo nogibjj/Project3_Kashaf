@@ -8,4 +8,3 @@ streamlit
 pysqlite3
 kaggle
 pytest
-black

@@ -8,7 +8,7 @@ connection = sqlite3.connect('database.db')
 #create a cursor
 def create_connection(db_file):
     conn = None
-    try:
+    try: 
         conn = sqlite3.connect(db_file)
         print("Database Created")
     except Error as e:
