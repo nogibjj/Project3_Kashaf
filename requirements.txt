@@ -1,10 +1,7 @@
 pytest
 pylint
-ipython
-uvicorn[standard]
-s3fs
 bokeh
 streamlit
 pysqlite3
 kaggle
-pytest
+black
