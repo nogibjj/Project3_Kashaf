@@ -5,3 +5,4 @@ streamlit
 pysqlite3
 kaggle
 black==22.3.0
+click==8.1.2
