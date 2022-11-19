@@ -1,4 +1,3 @@
-[![CI](https://github.com/nogibjj/Project3_Kashaf/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/Project3_Kashaf/actions/workflows/main.yml)
 
 # Project 3: Generate a script that queries a database: Sqlite.
 
